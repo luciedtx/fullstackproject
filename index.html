@@ -5,6 +5,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Restaurant</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <a href="index.html"> Food </a>
@@ -19,7 +20,7 @@
             <li> <a href="#contactus" > Contact </a> </li>
         </ul>
        
-        <h2>Always Choose Good</h2>
+        <h2 style="color: blueviolet;">Always Choose Good</h2>
         <p>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere vulputate dui, et lobortis elit rutrum eget. Ut turpis diam, dapibus a luctus a, elementum sit amet odio. Vestibulum pharetra odio diam, non euismod sapien hendrerit non.
         </p>
@@ -34,21 +35,17 @@
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere vulputate dui, et lobortis elit rutrum eget. Ut turpis diam, dapibus a luctus a, elementum sit amet odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere vulputate dui, et lobortis elit rutrum eget. 
         </p>
+
         <img src="img/img2.jpg" alt="Salad">
         <h3> Special Salads </h3>
-
         <img src="img/img3.jpg" alt="Soup">
         <h3> Special Soup </h3>
-
         <img src="img/menu3.jpg" alt="Pasta">
         <h3> Special Pasta </h3>
-
         <img src="img/menu4.jpg" alt="Salad">
         <h3> Special Salads </h3>
-
         <img src="img/menu5.jpg" alt="Soup">
         <h3> Special Soup </h3>
-
         <img src="img/menu6.jpg" alt="Pasta">
         <h3> Special Pasta </h3>
 
@@ -60,13 +57,10 @@
 
         <img src="img/expert1.jpg" alt="Expert1">
         <h3> Someone Famous </h3>
-
         <img src="img/expert2.jpg" alt="Expert2">
         <h3> Someone Famous </h3>
-
         <img src="img/expert3.jpg" alt="Expert3">
         <h3> Someone Famous </h3>
-
         <img src="img/expert4.jpg" alt="Expert4">
         <h3> Someone Famous </h3>
 
@@ -93,6 +87,14 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
         <h3> Send Message </h3>
+        <form method="" action=""></form>
+        <!-- <label> Nom :</label> <br> -->
+        <input type="text" name="nom" placeholder="Name" required> <br> <!--required pour que l'utilisateur soit obligé de remplir l'input-->
+        <input type="email" name="email" placeholder="Email" required> <br>
+        <input type="password" name="password" placeholder="Password" required> <br>
+        <textarea name="Message" cols="30" rows="3" placeholder="Message"></textarea> <br>
+        <input type="submit" value="Send"> <!-- button pour les formulaires-->
+        <!-- <input type="number" name="number"> -->
 
     </body>
 </html>
