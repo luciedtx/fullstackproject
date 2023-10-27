@@ -1,0 +1,31 @@
+h1{
+    color: rgb(255, 255, 255); /*rgba pour ajouter le parametre d'opacité*/
+    background-color: black;
+    width: 400px; 
+    height: 70px;
+    /*background: url("https://i.pinimg.com/originals/c1/5c/ba/c15cbae66a8a930a1cb292aaf60bb815.jpg") no-repeat black;  tout mettre en 1fois*/ 
+    background-image: url("https://i.pinimg.com/originals/c1/5c/ba/c15cbae66a8a930a1cb292aaf60bb815.jpg");
+    background-repeat: no-repeat
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: lowercase;
+    line-height: 25px;
+}
+
+#monarticle{
+    border: 2px black solid;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+span{
+    font-weight: normal;
+}
+
+.red{
+    color: red;
+}
