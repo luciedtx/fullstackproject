@@ -1,3 +1,105 @@
+
+
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* les flexbox */
+/* #blocprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+}
+#bloc1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(6, 135, 221);
+}
+#bloc2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(96, 12, 250);
+}
+#bloc3{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(192, 11, 247);
+}
+#bloc4{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(252, 6, 100);
+} */
+div{
+    margin: 10px;
+}
+
+#aboutus{
+    display: flex;
+    justify-content: space-around;
+}
+#blocg{
+    width: 40%;
+}
+#blocd{
+    width: 40%;
+}
+
+span{
+    color: #ff0157;
+    font-size: 40px;   
+    
+}
+@media screen and (max-width:800px) {
+    #aboutus{
+        display: flex;
+        flex-direction: column;
+    }
+    #blocg{
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; */
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #blocg h2{
+        text-align: center;
+        
+    }
+    #blocd{
+        width: 50%;
+        
+    }
+}
+
+/* le responsive et media queries */
+/* .item1{
+    background-color: #ff0157;
+}
+.item2{
+    background-color: aqua;
+}
+.item3{
+    background-color: blue;
+}
+.item4{
+    background-color: blueviolet;
+}
+.item5{
+    background-color: yellow;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+@media(max-width:800px) {
+    .menu{
+        flex-direction: column;
+    }
+} */
