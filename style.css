@@ -45,7 +45,7 @@ div{
     width: 40%;
 }
 #blocd{
-    width: 40%;
+    width: 50%;
 }
 
 span{
@@ -103,3 +103,13 @@ span{
         flex-direction: column;
     }
 } */
+
+
+/* 
+a:hover{
+ } 
+text decoration none pour enlever soulignage auto
+display : inline-bloc transforme bloc en inline
+
+menu burger pas à faire
+ */
