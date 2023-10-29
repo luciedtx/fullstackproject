@@ -35,6 +35,8 @@ a{
 }
 
 header{
-    display: flex;
-    background-color: cadetblue;
+    background-image: url(img/banner);
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin: 20px;
 }
