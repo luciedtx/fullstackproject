@@ -218,5 +218,35 @@ h2 {
 
 footer {
     text-align: center;
-    margin-right: 90px;
+    margin: 20px;
+}
+.contact_us {
+    list-style: none;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around; /* ajuste l'espace entre les images */
+}
+
+.contact_us li {
+    height: 40px;
+    margin: 20px;
+    padding: 0;
+}
+
+.contact_us ul{
+    padding: 0;
+    width: 650px;
+    height: 80px;
+}
+
+.contact_us img {
+    width: 60px; 
+    height: 60px;
+}
+
+hr {
+    height: 2px; 
+    background-color: #3a3737; 
+    border: none; /* Supprime les styles de bordure par défaut */
+    
 }
